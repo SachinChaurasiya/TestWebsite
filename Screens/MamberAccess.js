@@ -42,12 +42,12 @@ const styles =StyleSheet.create({
         marginRight:10,
         backgroundColor:"whitesmoke"
       },
-      shadow: {  
-        overflow: 'hidden',
-        shadowColor: 'grey',
-        shadowRadius: 8,
-        shadowOpacity:10,
-      },
+    //   shadow: {  
+    //     overflow: 'hidden',
+    //     shadowColor: 'grey',
+    //     shadowRadius: 4,
+    //     shadowOpacity:4,
+    //   },
 })
 
 

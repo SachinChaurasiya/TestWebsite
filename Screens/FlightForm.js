@@ -149,7 +149,7 @@ const styles = StyleSheet.create({
       width:40,
       height:20,
       border:'none',
-      outline:'none',
+      // outline:'none',
     },
     Searchbtn:{
     marginLeft:70,

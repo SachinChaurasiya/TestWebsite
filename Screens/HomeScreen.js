@@ -1,23 +1,15 @@
-// import React from 'react'
-// import {View,Text} from 'react-native'
-// import { NavigationContainer} from '@react-navigation/native';
-// import {createStackNavigator} from '@react-navigation/stack';
-// import { createDrawerNavigator } from '@react-navigation/drawer';
+import React from 'react';
+import {View, StyleSheet} from 'react-native';
 
-// import MainTabScreens from './MainTabSceens'
-// import DrawerContent from './DrawerContent'
+const HomeScreen = () => {
+    return (
+        <View>
+            <Text>Home</Text>
+        </View>
+    );
+}
 
-// const Drawer = createDrawerNavigator();
-// const HomeScreen = () => {
-//     return (
-//            <NavigationContainer>
-//     <Drawer.Navigator drawerContent={props => <DrawerContent {...props}/>}>
-//       <Drawer.Screen name='Home' options={{headerShown:false}} component={MainTabScreens} />
-//       {/* <Drawer.Screen name='Hotels' component={HotelsStackScreen} /> */}
-//     </Drawer.Navigator>
+const styles = StyleSheet.create({})
 
-//   </NavigationContainer>
-//     )
-// }
+export default HomeScreen;
 
-// export default HomeScreen

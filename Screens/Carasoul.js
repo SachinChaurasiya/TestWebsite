@@ -11,7 +11,7 @@ const Carasoul = () => {
     const slideRef= useRef(null)
     const scrollX = useRef(new Animated.Value(0)).current;
     const viewableItemchanged = useRef(({viewableItem})=>{
-        setCurrent(viewableItem[0].index);
+        setCurrent(viewableItem[0].index)
     }).current;
 
 
@@ -63,7 +63,7 @@ const Carasoul = () => {
       pagingEnabled
       bounces={false}
       keyExtractor={(item)=> item.id}
-      onScroll={Animated.event([{nativeEvent:{contentoffset:{x : scrollX}}}],{  useNativeDriver:false})}
+      onScroll={Animated.event([{nativeEvent:{contentOffset:{x : scrollX}}}],{  useNativeDriver:false})}
       scrollEventThrottle={32}
       onViewableItemsChanged={viewableItemchanged}
       viewabilityConfig={viewConfig}

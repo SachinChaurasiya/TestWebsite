@@ -3,11 +3,13 @@ import { StyleSheet, Text, View } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import HomeScreens from './NavbarScreens';
 import FlightForm from "./FlightForm"
+import WeekendCards from './WeekendCards';
 
     const ExploreScreens = () => {
         return (
           <View style={styles.container}>
-            <FlightForm />
+            {/* <FlightForm /> */}
+            <WeekendCards/>
             <StatusBar style="auto" />
           </View>
         );

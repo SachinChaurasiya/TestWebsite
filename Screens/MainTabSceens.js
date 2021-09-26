@@ -1,11 +1,12 @@
 import React from 'react';
+import {View} from 'react-native';
 import {createStackNavigator} from '@react-navigation/stack';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs'
 
 // icons
 import Icons from 'react-native-vector-icons/Ionicons'
 // Components Screens
-// import HomeScreen from './NavbarScreens'
+import HomeScreen from './HomeScreen'
 import HotelsScreen from './HotelsScreens'
 import ExploreScreens from './ExploreScreen'
 import ProfileScreens from './SupportSceens'

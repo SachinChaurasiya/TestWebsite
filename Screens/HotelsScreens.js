@@ -111,7 +111,6 @@ import Aboutus from './Aboutus';
               <Carasoul/>
               <MembersAccess/>
               <BestOffer/>
-              {/* <Footer/> */}
               
             <StatusBar style="auto" />
             </View>
