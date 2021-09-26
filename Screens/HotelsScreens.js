@@ -5,6 +5,10 @@ import{FontAwesome5} from 'react-native-vector-icons';
 import OfferPromoCode from './OfferPromoCode';
 import Carasoul from './Carasoul';
 import MembersAccess from './MamberAccess';
+import HotelDeals from './HotelDeals';
+import BestOffer from './BestOffer';
+import Footer from './Footer';
+import Aboutus from './Aboutus';
 
     const HotelsScreens = () => {
 
@@ -103,10 +107,15 @@ import MembersAccess from './MamberAccess';
           </View>
 
               <OfferPromoCode/>
-              <MembersAccess/>
+              <HotelDeals/>
               <Carasoul/>
+              <MembersAccess/>
+              <BestOffer/>
+              {/* <Footer/> */}
+              
             <StatusBar style="auto" />
             </View>
+            <Aboutus/>
           </View>
           </ScrollView>
         );

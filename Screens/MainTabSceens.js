@@ -5,12 +5,12 @@ import { createMaterialBottomTabNavigator } from '@react-navigation/material-bot
 // icons
 import Icons from 'react-native-vector-icons/Ionicons'
 // Components Screens
-import HomeScreen from './NavbarScreens'
+// import HomeScreen from './NavbarScreens'
 import HotelsScreen from './HotelsScreens'
 import ExploreScreens from './ExploreScreen'
-import ProfileScreens from './ProfileSceens'
+import ProfileScreens from './SupportSceens'
 import NavScreens from './NavbarScreens';
-import SupportScreens from './SupportScreens'
+// import SupportScreens from './SupportScreens'
 // import { Drawer } from 'react-native-paper';
 
 const Tab = createMaterialBottomTabNavigator();
@@ -20,7 +20,7 @@ const HotelsStack = createStackNavigator();
 
 const MainTabScreens = () => (
     <Tab.Navigator
-    activeColor="#e91e63"
+    activeColor="#fff"
      >
     <Tab.Screen
       name="Home"
@@ -63,7 +63,7 @@ const MainTabScreens = () => (
       component={ProfileStackScreen}
       options={{
         headerShown:false,
-        tabBarLabel: 'Profiles',
+        tabBarLabel: 'Support',
         tabBarColor:"#f15b2f",
         tabBarIcon: ({ color }) => (
           <Icons name="ios-aperture" color={color} size={26} />

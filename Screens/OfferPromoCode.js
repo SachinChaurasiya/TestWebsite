@@ -50,7 +50,8 @@ const styles = StyleSheet.create({
         shadowRadius:8,
         height:250,
         // backgroundColor: '#000',
-        marginHorizontal:12
+        marginHorizontal:12,
+        marginBottom:20
         },
         secondshadow:{
             shadowinset:{
